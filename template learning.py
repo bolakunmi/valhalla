@@ -7,8 +7,8 @@ def Main():
     cart.append(dict(item='fish', price =22, quantity =4))
 
     t=Template('$quantity x $item = $price')
-    print(cart)
-    print(Template('$quantity x $item = $price').substitute(cart[1]))
+    #print(cart)
+    #print(Template('$quantity x $item = $price').substitute(cart[1]))
     total= 0
     print('cart:')
     for data in cart:
