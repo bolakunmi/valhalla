@@ -1,0 +1,21 @@
+/* body{ background: url(C:/Users/boluw/Documents/python/html/earth.jfif);
+        background-size: cover} */
+html{background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(180deg,rgba(6, 85, 6,1) 20%,rgba(139, 34, 15, 0.753) 100% )}
+#google:hover{color:black; background-color: rgba(26, 150, 26, 0.5);; font-size:10mm;}
+.main_topic {color: aqua;}
+h2{color: green;}
+h2:hover {color: black;}
+#pick_me{color: orange;}
+#link:link{ color:rgb(27, 199, 99)}
+#link:visited{color:rgb(10, 9, 112) }
+h1:hover{color: black;}
+.pick:visited{color: yellow;}
+span:hover{color: black;}
+button:hover{color:white ; background-color: purple}
+button:link{color:blue}
+button:visited{color:green;background-color: white;}
+a:hover{font-style: italic; color: red; background-color: rgb(19, 18, 18);}
+img[src^="C:/users/boluw/Documents/revit files/keithan/"] {border-radius: 1mm; border: 1mm; border-style:groove ; border-color: rgb(69, 119, 211);}
+form:hover{border-radius: 1mm; border: 3mm;}
