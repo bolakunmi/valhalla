@@ -1,0 +1,25 @@
+body{background:linear-gradient(135deg, rgb(61, 61, 209), rgba(185, 44, 44, 0.651) 70%, rgba(182, 91, 31, 0.671) 100%); 
+    border-radius: 5mm; width: 100mm; height: 120mm; 
+    background-repeat: no repeat; background-size: cover;
+    margin-top:-2mm;;}
+
+.container-item{ background-color: white; color:rgba(92, 92, 228, 0.774);
+    width:70mm; text-align: center; 
+    border-radius: 2mm; margin-bottom: 7mm; padding:5mm;
+    font-weight: bold;
+    transition: all  500ms ease;
+    font-family: 'Rubik', sans-serif;
+    }
+
+h2{font-family: Arial, Helvetica, sans-serif; font-size: 4.5mm;}
+h4{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+font-size: 4mm;}
+.container-item:hover{background:linear-gradient(165deg,rgba(196, 119, 68, 0.5)30% ,rgba(204, 63, 63, 0.3) 60%, rgba(68, 68, 194, 0.3)90%);
+     color: rgba(228, 232, 247, 0.904); font-size: larger; ;}
+.container{display:grid; align-content: center; justify-content: center;}
+
+/* .span-container{display: grid; align-content: space-between;} */
+ span{color: white; ;} 
+
+#calm{font-family: 'Dancing Script', cursive; font-size: 8mm; align-self: flex-start;}
+#dg{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 100;}
