@@ -1,0 +1,38 @@
+.white-container{padding-top: 5mm; padding-left: 5mm;
+    display: grid; grid-template-columns: auto auto;
+color:rgb(9, 61, 63) ; font-size: 3.5mm;}
+.D.G-container{color:rgb(98, 180, 185);display: grid;grid-template-columns: 25mm, 15mm;}
+#submit{width: 50mm; border-radius: 2mm; height: 8mm; border: none; 
+     background-color: rgb(98, 180, 185); color: rgb(5, 53, 43);
+    margin-top: 5mm; margin-left: -2.5mm;}
+#submit:hover{  background-color: rgb(55, 153, 156); color: rgb(176, 228, 231);
+         transform: scale(1.05); transition: all 400ms ease-in-out;}
+
+
+.button{background-color:  rgb(12, 86, 88); width: 15mm;margin-top: 2mm;
+     height: 6mm; border-radius: 1mm; border: none; margin-right: 0.5mm;
+    color: rgb(200, 214, 214)}
+.button:hover{ transform: scale(1.1);}
+.button-custom{background-color: rgba(146, 206, 146, 0); width: 15mm;
+    margin-top: 1mm; height: 6mm; border-radius: 1mm; border: none;
+     background:rgb(166, 216, 218);}
+.button-custom:hover{
+    transform: scale(1.1);}
+    
+
+input{height: 6mm; background-color: rgb(200, 214, 214); border: none; border-radius: 1mm; margin-top: 1mm;}
+
+body{font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+#submit{animation-name: jump;
+animation-duration: 200ms;
+animation-timing-function: ease-in-out;
+animation-delay: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+@keyframes  jump{
+    0%{display: none; transform:translateY(-1mm)}
+    100%{transform:translateY(0mm)}
+}
